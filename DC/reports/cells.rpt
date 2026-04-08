@@ -1,0 +1,134 @@
+ 
+****************************************
+Report : cell
+Design : multi_adder
+Version: W-2024.09
+Date   : Sun Apr  5 03:28:37 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U50                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U51                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U52                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U53                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U54                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U55                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U56                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U57                       INVX2_RVT       saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U58                       AOI222X1_RVT    saed32rvt_ss0p7vn40c
+                                                          3.812160  
+U59                       OAI222X1_RVT    saed32rvt_ss0p7vn40c
+                                                          3.812160  
+U60                       AO222X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.303872  
+U61                       XNOR2X1_RVT     saed32rvt_ss0p7vn40c
+                                                          4.320448  
+U62                       NAND2X0_RVT     saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U63                       OA222X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.303872  
+U64                       AO222X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.303872  
+U65                       OA221X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.049728  
+U66                       AND2X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.033152  
+U67                       NBUFFX2_RVT     saed32rvt_ss0p7vn40c
+                                                          2.033152  
+U68                       NAND2X0_RVT     saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U69                       OA21X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U70                       NAND2X0_RVT     saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U71                       INVX1_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U72                       NAND2X0_RVT     saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U73                       INVX1_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U74                       AND2X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.033152  
+U75                       AO22X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U76                       NAND3X0_RVT     saed32rvt_ss0p7vn40c
+                                                          1.779008  
+U77                       NAND2X0_RVT     saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U78                       OAI22X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.049728  
+U79                       AO21X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U80                       NAND2X0_RVT     saed32rvt_ss0p7vn40c
+                                                          1.524864  
+U81                       OA21X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U82                       AO22X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U83                       AND3X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.287296  
+U84                       NAND4X0_RVT     saed32rvt_ss0p7vn40c
+                                                          2.033152  
+U85                       OA21X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U86                       HADDX1_RVT      saed32rvt_ss0p7vn40c
+                                                          3.303872  r
+U87                       OA21X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U88                       OA221X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.049728  
+U89                       HADDX1_RVT      saed32rvt_ss0p7vn40c
+                                                          3.303872  r
+U90                       OA221X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.049728  
+U91                       HADDX1_RVT      saed32rvt_ss0p7vn40c
+                                                          3.303872  r
+U92                       OA21X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U93                       OA21X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+U94                       OA21X1_RVT      saed32rvt_ss0p7vn40c
+                                                          2.541440  
+i_reg[0]                  DFFASX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+i_reg[1]                  DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+i_reg[2]                  DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+i_reg[3]                  DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+sum_reg[0]                DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+sum_reg[1]                DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+sum_reg[2]                DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+sum_reg[3]                DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+sum_reg[4]                DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+sum_reg[5]                DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+sum_reg[6]                DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+sum_reg[7]                DFFARX1_RVT     saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+--------------------------------------------------------------------------------
+Total 57 cells                                            189.083138
+1

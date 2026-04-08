@@ -1,0 +1,27 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : multi_adder
+Version: W-2024.09
+Date   : Sun Apr  5 03:28:37 2026
+****************************************
+
+
+   max_transition
+
+                             Required        Actual
+   Net                      Transition     Transition        Slack
+   -----------------------------------------------------------------
+   reset                        1.02           1.64          -0.62  (VIOLATED)
+       PIN :   U57/A            1.02           1.64          -0.62  (VIOLATED)
+   n[3]                         1.02           1.44          -0.42  (VIOLATED)
+       PIN :   U60/A3           1.02           1.44          -0.42  (VIOLATED)
+       PIN :   U60/A1           1.02           1.44          -0.42  (VIOLATED)
+   n35                          0.62           0.84          -0.22  (VIOLATED)
+       PIN :   U57/Y            0.62           0.84          -0.22  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      3                  -1.26  
+
+1
